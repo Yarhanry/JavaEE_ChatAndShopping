@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://wallpapercave.com/dwp2x/wp7542644.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.icon {
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 43%;
+}
+
+#wrap {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    /*默认情况 不换行*/
+    flex-wrap: nowrap;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 60px;
+}
+
+.divPart {
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    border: 1px dashed grey;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0 20px;
+    padding: 5px;
+    /*怪异盒子模型*/
+    box-sizing: border-box;
+}
+
+.sub {
+    display:block;
+    margin:-25px auto;
+    text-align: center;
+    width: 200px;
+    height: 90px;
+    font-size: 23px;
+    color: #f0f0f0;
+    font-family:微软雅黑体;
+    border-radius: 5px;
+    /*多个阴影叠加*/
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+    background: radial-gradient(circle,rgba(247, 150, 192, 1) 0%,rgba(118, 174, 241, 1) 100%);
+    line-height: 42px;
+    border: none;
+}

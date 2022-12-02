@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://wallpapercave.com/wp/wp7935128.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.textarea1 {
+    width: 500px;
+    height: 350px;
+    margin-left: 32.5%;
+    margin-top: 30px;
+    border: 10px double  rgb(236, 192, 192);
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+.textarea2 {
+    width: 500px;
+    height:100px;
+    margin-left: 32.5%;
+    margin-top: 10px;
+    border: 10px double  rgb(236, 192, 192);
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+.icon {
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 45%;
+}
+
+.button1 {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background-color:rgb(255, 255, 255) ;
+    border: 5px double  rgb(236, 192, 192);
+    border-radius: 15px;
+    margin-left: 32.5%;
+    margin-top: 15px;
+    float:left;
+}
+
+.button2 {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background-color:rgb(255, 255, 255) ;
+    border: 5px double  rgb(236, 192, 192);
+    border-radius: 15px;
+    margin-right: 32.5%;
+    margin-top: 15px;
+    float:right;
+}
+
+.text {
+    color: rgb(167, 144, 166);
+    margin-top: 5px;
+    text-align: center;
+    margin-left: 46%;
+    float: left;
+}
+
+.link {
+    float: right;
+    text-align: center;
+    margin-right: 46.5%;
+    margin-top: 10px;
+}

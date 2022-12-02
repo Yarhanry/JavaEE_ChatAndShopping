@@ -1,0 +1,72 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://wallpapercave.com/uwp/uwp2116365.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.box {
+    text-align: center;
+    margin-top: 100px;
+}
+
+table.imagetable {
+    width: 750px;
+    font-family: 华文中宋;
+    font-size:16px;
+    color:#232b2e;
+    border-width: 1px;
+    border-color: #eacfcf;
+    border-collapse: collapse;
+}
+
+table.imagetable th {
+    background:#b5cfd2;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #f0d9d9;
+}
+
+table.imagetable td {
+    background:#f2f3df;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #fbdfdf;
+}
+
+.button1 {
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+    background-color:rgb(255, 255, 255) ;
+    border: 5px double  rgb(236, 192, 192);
+    border-radius: 10px;
+    float: left;
+    margin-left: 45%;
+}
+
+.button2 {
+    width: 150px;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+    background-color:rgb(255, 255, 255) ;
+    border: 5px double  rgb(236, 192, 192);
+    border-radius: 10px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 45%;
+}
+
+.link {
+    margin-top: 20px;
+    text-decoration:none;
+    color: #232b2e;
+    font-size: 20px;
+    font-family:华文中宋;
+}

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://wallpapercave.com/uwp/uwp2116365.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.all {
+    margin-top: 20%;
+}
+.shop {
+    text-align: center;
+    float:left;
+    margin-left: 20%;
+}
+.chat {
+    text-align: center;
+    float:right;
+    margin-right: 20%;
+}
+
+.submit {
+    margin-top: 130px;
+    margin-left: 660px;
+    border-radius: 8px;
+    height: 49px;
+    width: 110px;
+    font-size: 16px;
+    background-color: rgb(109 172 158);
+    box-shadow: 7px 7px 17px rgba(67, 129, 66, 0.3);
+}
+
+a {
+    text-decoration:none;
+    color: #111111;
+}

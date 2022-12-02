@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://wallpapercave.com/uwp/uwp2116365.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.text{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 5%;
+}
+.svg{
+    text-align: center;
+    margin-top: 10%;
+}
